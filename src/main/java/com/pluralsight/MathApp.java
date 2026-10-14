@@ -17,6 +17,13 @@ public class MathApp {
         // print to screen the cheaper option
         System.out.println("The cheapest option cost $" + cheapestPrice);
 
+        // radius of a circle
+        double radius = 7.25;
+        // calculate the area by radius to the power of 2 times pi
+        double area = Math.pow(radius, 2) * Math.PI;
+        // print area of the circle
+        System.out.println("The area of the circle is " + area);
+
 
 // then code solution
 // then use System.out.println() to display results
