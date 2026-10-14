@@ -10,6 +10,13 @@ public class MathApp {
         // print the highest salary
         System.out.println("The highest salary is " + highestSalary);
 
+        // question 2.
+        // initialize car and truck price variables. find the smallest value of the two
+        int carPrice = 25000, truckPrice = 30000;
+        int cheapestPrice = Math.min(carPrice, truckPrice);
+        // print to screen the cheaper option
+        System.out.println("The cheapest option cost $" + cheapestPrice);
+
 
 // then code solution
 // then use System.out.println() to display results
