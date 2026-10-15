@@ -43,6 +43,11 @@ public class MathApp {
         double positiveValue = Math.abs(negativeValue);
         System.out.println(positiveValue); // print to screen
 
+        // question 7. print a random value between 0 to 1
+        double randomValue = Math.random();
+        System.out.println("The random value is " + randomValue);
+
+
 
 
 
