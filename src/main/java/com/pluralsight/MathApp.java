@@ -38,6 +38,11 @@ public class MathApp {
         System.out.println("The distance between point 1: (" + x1 + ", " + y1 + ") " +
                 "and point 2: (" + x2 + ", " + y2 + ") is " + distanceValue);
 
+        // question 6. set a variable to a negative value, then use math function to turn positive
+        double negativeValue = -3.8;
+        double positiveValue = Math.abs(negativeValue);
+        System.out.println(positiveValue); // print to screen
+
 
 
 
