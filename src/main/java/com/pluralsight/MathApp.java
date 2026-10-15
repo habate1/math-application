@@ -30,6 +30,15 @@ public class MathApp {
         double squareRootValue = Math.sqrt((value));
         System.out.println("The square root of " + value + " is " + squareRootValue);
 
+        // question 5. find and display the value between two points
+        double x1 = 5, y1 = 10;
+        double x2 = 85, y2 = 50;
+        double d1 = x2 - x1, d2 = y2 - y1;
+        double distanceValue = Math.hypot(d1, d2);
+        System.out.println("The distance between point 1: (" + x1 + ", " + y1 + ") " +
+                "and point 2: (" + x2 + ", " + y2 + ") is " + distanceValue);
+
+
 
 
 
